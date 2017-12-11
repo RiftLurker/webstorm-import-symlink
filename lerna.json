@@ -1,0 +1,11 @@
+{
+  "lerna": "2.5.1",
+  "packages": [
+    "src/*"
+  ],
+  "version": "independent",
+  "hoist": [
+    "lerna",
+    "typescript"
+  ]
+}

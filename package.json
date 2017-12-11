@@ -1,0 +1,28 @@
+{
+  "name": "webstorm-import-symlink",
+  "version": "0.0.0",
+  "description": "debugging auto import with symlinks in webstorm",
+  "main": "index.js",
+  "scripts": {
+    "actual": "lerna exec --scope=@test/main npm run actual",
+    "expected": "lerna exec --scope=@test/main npm run expected",
+    "postinstall": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postcrafter/webstorm-import-symlink.git"
+  },
+  "keywords": [
+    "webstorm",
+    "lerna"
+  ],
+  "author": "Leo \"PostCrafter\" Friedrichs <dev@postcrafter.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/postcrafter/webstorm-import-symlink/issues"
+  },
+  "homepage": "https://github.com/postcrafter/webstorm-import-symlink#readme",
+  "devDependencies": {
+    "lerna": "^2.5.1"
+  }
+}
