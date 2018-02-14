@@ -18,4 +18,4 @@ Additional information: execute `npm run expected` to see Typescript's output wi
 The import is resolved to the `src/target/` directory.
 `import { testTarget } from "../target/index";`.
 
-Additional information: execute `npm run actual` to see Typescript's output with the `preserveSymlinks` flag.
+Additional information: execute `npm run actual` to see Typescript's output without the `preserveSymlinks` flag.
